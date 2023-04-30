@@ -41,8 +41,12 @@ MainSection:NewToggle("Infinity Jump", "Jump", function()
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
     end)
 
-MainSection:NewButton("Noclip(press e)", "walk with walls", function()
+MainSection:NewButton("Noclip(press n)", "walk with walls", function()
      loadstring(game:HttpGet(("https://raw.githubusercontent.com/prosko1234/noclip/main/noclip.lua"),true))()
+end)
+
+MainSection:NewButton("Fly(press e)", "fly free", function()
+     loadstring(game:HttpGet(("https://raw.githubusercontent.com/prosko1234/Fly/main/script.lua"),true))()
 end)
 
 local Main = Window:NewTab("Arsenal")
