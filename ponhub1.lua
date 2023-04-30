@@ -20,6 +20,15 @@ end)
 MainSection:NewButton("Keyboard(mobile)", "keyboard for mobile", function()
      loadstring(game:HttpGet(("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"),true))()
 end)
+ 
+MainSection:NewToggle("Infinity Jump", "Jump", function()
+        local InfiniteJumpEnabled = true
+        game:GetService("UserInputService").JumpRequest:connect(function()
+            if InfiniteJumpEnabled then
+                game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+            end
+        end)
+    end)
 
 local Main = Window:NewTab("Arsenal")
 local MainSection = Main:NewSection("Arsenal")
