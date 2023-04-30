@@ -106,3 +106,13 @@ local MainSection = Main:NewSection("Jailbreak")
 MainSection:NewButton("Auto rob", "not my script", function()
      loadstring(game:HttpGet(("https://api.luarmor.net/files/v3/loaders/5d4b0843f800d5dcac07568e18190b7e.lua"),true))()
 end)
+
+
+    local Credits = Window:NewTab("Credits")
+    local CreditsSection = Credits:NewSection("Credits")
+
+
+    CreditsSection:NewLabel("Created by pon228#3970")
+
+
+    CreditsSection:NewLabel("Discrod: discord.gg/tA3M5gZNdT")
