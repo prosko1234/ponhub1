@@ -30,6 +30,15 @@ MainSection:NewToggle("Infinity Jump", "Jump", function()
         end)
     end)
 
+    MainSection:NewSlider("Walkspeed", "Walkspeed.", 500, 16, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+    MainSection:NewSlider("JumpPower", "jump", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+
 local Main = Window:NewTab("Arsenal")
 local MainSection = Main:NewSection("Arsenal")
 
