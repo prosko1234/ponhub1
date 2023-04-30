@@ -2,8 +2,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Pon hub(discord.gg/tA3M5gZNdT)", "DarkTheme")
 
 -- MAIN
-local Main = Window:NewTab("Main")
-local MainSection = Main:NewSection("Main")
+local Main = Window:NewTab("Other games")
+local MainSection = Main:NewSection("Other games")
 
 MainSection:NewButton("Infinity Yield", "admin script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
@@ -20,7 +20,10 @@ end)
 MainSection:NewButton("Keyboard(mobile)", "keyboard for mobile", function()
      loadstring(game:HttpGet(("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"),true))()
 end)
- 
+
+local Main = Window:NewTab("Player")
+local MainSection = Main:NewSection("Player")
+
 MainSection:NewToggle("Infinity Jump", "Jump", function()
         local InfiniteJumpEnabled = true
         game:GetService("UserInputService").JumpRequest:connect(function()
