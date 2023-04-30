@@ -70,3 +70,11 @@ end)
 MainSection:NewButton("Skin changer", "no visual", function()
      loadstring(game:HttpGet(("https://raw.githubusercontent.com/prosko1234/skinchanger/main/skinchanger.lua"),true))()
 end)
+
+
+local Main = Window:NewTab("Jailbreak")
+local MainSection = Main:NewSection("Jailbreak")
+
+MainSection:NewButton("Auto rob", "not my script", function()
+     loadstring(game:HttpGet(("https://api.luarmor.net/files/v3/loaders/5d4b0843f800d5dcac07568e18190b7e.lua"),true))()
+end)
