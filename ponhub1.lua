@@ -2,8 +2,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Pon hub(discord.gg/tA3M5gZNdT)", "DarkTheme")
 
 -- MAIN
-local Main = Window:NewTab("Other games")
-local MainSection = Main:NewSection("Other games")
+local Main = Window:NewTab("Other scripts")
+local MainSection = Main:NewSection("Other scripts")
 
 MainSection:NewButton("Infinity Yield", "admin script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
