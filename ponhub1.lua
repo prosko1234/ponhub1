@@ -116,6 +116,7 @@ MainSection:NewButton("Blockdrop(autofarm)", "click when the game starts", funct
      loadstring(game:HttpGet(("https://raw.githubusercontent.com/prosko1234/blockdrop/main/autofarm"),true))()
 end)
 
+
     local Credits = Window:NewTab("Credits")
     local CreditsSection = Credits:NewSection("Credits")
 
