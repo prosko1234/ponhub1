@@ -107,6 +107,14 @@ MainSection:NewButton("Auto rob", "not my script", function()
      loadstring(game:HttpGet(("https://api.luarmor.net/files/v3/loaders/5d4b0843f800d5dcac07568e18190b7e.lua"),true))()
 end)
 
+https://raw.githubusercontent.com/prosko1234/blockdrop/main/autofarm
+
+local Main = Window:NewTab("Double Down")
+local MainSection = Main:NewSection("Double Down")
+
+MainSection:NewButton("Blockdrop(autofarm)", "click when the game starts", function()
+     loadstring(game:HttpGet(("https://raw.githubusercontent.com/prosko1234/blockdrop/main/autofarm"),true))()
+end)
 
     local Credits = Window:NewTab("Credits")
     local CreditsSection = Credits:NewSection("Credits")
