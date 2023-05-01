@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Pon hub(discord.gg/tA3M5gZNdT)", "DarkTheme")
+local Window = Library.CreateLib("Pon hub", "DarkTheme")
 
 -- MAIN
 local Main = Window:NewTab("Other scripts")
