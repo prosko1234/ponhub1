@@ -181,11 +181,15 @@ end)
 
     CreditsSection:NewLabel("Discrod: discord.gg/tA3M5gZNdT")
 
-if game.PlaceId == 6516141723
+if game.PlaceId == 606849621
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Pon hub", "DarkTheme")
 local Main = Window:NewTab("Jailbreak")
 local MainSection = Main:NewSection("Jailbreak")
+MainSection:NewButton("Auto rob", "not my script", function()
+     loadstring(game:HttpGet(("https://api.luarmor.net/files/v3/loaders/5d4b0843f800d5dcac07568e18190b7e.lua"),true))()
+end)
+
 local Main = Window:NewTab("Other scripts")
 local MainSection = Main:NewSection("Other scripts")
 
@@ -233,16 +237,21 @@ MainSection:NewButton("Fly(press e)", "fly free", function()
      loadstring(game:HttpGet(("https://raw.githubusercontent.com/prosko1234/Fly/main/script.lua"),true))()
 end)
 
-MainSection:NewButton("Auto rob", "not my script", function()
-     loadstring(game:HttpGet(("https://api.luarmor.net/files/v3/loaders/5d4b0843f800d5dcac07568e18190b7e.lua"),true))()
-end)
+    local Credits = Window:NewTab("Credits")
+    local CreditsSection = Credits:NewSection("Credits")
+
+
+    CreditsSection:NewLabel("Created by pon228#3970")
+
+
+    CreditsSection:NewLabel("Discrod: discord.gg/tA3M5gZNdT")
 
 
 if gamePlace.Id == 9476339275
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Pon hub", "DarkTheme")
 local Main = Window:NewTab("Double Down")
-local MainSection = Main:NewSection("Double Down")
+local MainSection = Main:NewSection("Double Down🎲")
 
 
 MainSection:NewButton("Blockdrop(autofarm)", "click when the game starts", function()
